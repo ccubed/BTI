@@ -1,0 +1,27 @@
+@@	Coded by: Gizmo AKA Ourea, Alzie, Oukranos
+@@	Email: ccubed.techno@gmail.com
+@@----------------------------------------------------------------------------
+@@	Purpose: BESM CG for BTI. Integrates with Arc, MuReq
+@@----------------------------------------------------------------------------
+@@
+@@  BESM CG
+@@  Points: 150, split of 60% stats, 20% attributes, 20% skills. Max attribute 4, min/max cv 4/8, min max hp 40/100, min max damage mult 3/6
+@@
+@@  Stats - Body, Mind, Spirit
+@@  Point cost: 10 points 1-12, 13+ 20 points
+@@
+@@  Attributes - Cost varies, Name (Source), Relevant Stat
+@@
+@@  Skills - Cost varies, Relevant Stat, Specialization
+@@
+@@  Defects - Cost varies (negative), Name
+@@
+@@  Combat Value - Base CV (Body+Mind+soul / 3), attack CV (Base CV + 1 per attack combat mastery attribute), defense CV (Base CV + 1 per defense combat mastery attribute)
+@@
+@@  Damage Multipler - 5 + 1 per level of massive damage attribute (Superstrength can increase by +1 per level if muscle is involved)
+@@
+@@  Health Points - Body+soul x 5 (+5 for every tough attribute) (-5 for every -2 points of not so tough defect)
+@@
+@@  Energy Point - Mind+soul x 5 (+5 per energy bonus attribute)
+@@
+
