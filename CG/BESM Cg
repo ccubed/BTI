@@ -6,6 +6,7 @@
 @@
 @@  BESM CG
 @@  Points: 150, split of 60% stats, 20% attributes, 20% skills. Max attribute 4, min/max cv 4/8, min max hp 40/100, min max damage mult 3/6
+@@  Split: 90 stats, 30 attributes, 30 skills
 @@
 @@  Stats - Body, Mind, Spirit
 @@  Point cost: 10 points 1-12, 13+ 20 points
@@ -25,3 +26,6 @@
 @@  Energy Point - Mind+soul x 5 (+5 per energy bonus attribute)
 @@
 
+@@ First Room - Stats
+@@ Start them with 1's and 60 points.
+&CMD`SETUP here=$+setup:@set %#=CG`STATS`PTS:60;@pemit %#=[ansi(hw,CG:)]%bYou have been given a 1 in each stat. That cost 30 points. This leaves you with 60 points to spend freely. As each stat is 10 points this leaves you with 6 choices remaining.;[sql(u(ARCDBHERE/SQL`ADD_PLAYER_STAT,Stat,%#,1,Body))][sql(u(ARCDBHERE/SQL`ADD_PLAYER_STAT,Stat,%#,1,Mind))][sql(u(ARCDBHERE/SQL`ADD_PLAYER_STAT,Stat,%#,1,Spirit))]
